@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <img src="img/italoo.jpg" alt="">
+            
+            <div class="tab_container">
+                <div class="tab">
+                    <h3><i class="fas fa-train"></i> Acquista biglietto</h3>
+                </div>
+                <div class="tab disabled">
+                    <h3><i class="fas fa-pencil-alt"></i> Cambia prenotazione</h3>
+                </div>
+                <div class="tab disabled">
+                    <h3><i class="far fa-credit-card"></i> Carnet</h3>
+                </div>
+            </div>
+            <div class="containersmall">
+                <div class="ms_row">
+                    <span class="prefix-text">Chilometri da percorrere: <span class="result" id="km"></span></span>
+                </div>
+                <div class="ms_row">
+                    <span class="prefix-text">Età passeggero: <span class="result" id="anni"></span></span>
+                </div>
+                <div class="ms_row">
+                    <span class="prefix-text">Costo: <span class="result" id="costo"></span>€</span></span>
+                </div>
+            </div>
+            <div class="containersmall borders">
+                <a href="#">Hai un codice promo?</a>
+                <div class="btn">
+                    <span>Conferma acquisto</span>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>

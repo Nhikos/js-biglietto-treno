@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #AD2238;
+}
+
+.container {
+    width: 80%;
+    margin: 10px auto;
+}
+
+h3 {
+    color: rgb(92, 91, 91);
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.tab_container {
+    display: flex;
+    justify-content: space-between;
+}
+.tab {
+    padding: 6px 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    width: 33%;
+    text-align: center;
+}
+.tab:hover {
+    cursor: pointer;
+}
+
+.disabled {
+    background-color: lightgrey;
+}
+
+img {
+    width: 200px;
+}
+
+.containersmall {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 30px 12px;
+    background-color: white;
+}
+
+.ms_row {
+    width: 33%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.prefix-text {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.result {
+    color: rgb(49, 49, 49);
+}
+
+.borders {
+    padding-top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.btn {
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 12px;
+    background-color: #8d0018;
+    border-radius: 10px;
+}
+.btn:hover {
+    cursor: pointer;
+}
+
+a {
+    color: grey;
+    font-size: 14px;
+    vertical-align: middle;
+}
+a:hover {
+    color: #8d0018;
+}
